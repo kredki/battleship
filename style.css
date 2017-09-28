@@ -1,0 +1,89 @@
+Button {
+   -fx-background-color:blue;
+}
+Button:hover{
+
+        -fx-background-color:#0000aa;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+Button:pressed{
+
+        -fx-background-color:#000088;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.redButton{
+        -fx-background-color:red;
+}
+.redButton:hover{
+
+        -fx-background-color:#dd0000;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.redButton:hover{
+
+        -fx-background-color:#aa0000;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.greenButton{
+        -fx-background-color:green;
+}
+.greenButton:hover{
+
+        -fx-background-color:#006900;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.greenButton:pressed{
+
+        -fx-background-color:#005500;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.whiteButton{
+        -fx-background-color:white;
+}
+whiteButton:hover{
+
+        -fx-background-color:khaki;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+whiteButton:pressed{
+
+        -fx-background-color:lemonchiffon;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.restButtons{
+        -fx-background-color:#90EE90;
+        -fx-background-radius: 5,5,4;
+        -fx-background-insets: 0 0 -1 0,0,1;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.restButtons:hover{
+
+        -fx-background-color:#64EE64;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.restButtons:pressed{
+
+        -fx-background-color:limegreen;
+        -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+        -fx-text-alignment: center;
+}
+.busy{
+
+        -fx-background-color:#B3B3B3;
+        -fx-text-alignment: center;
+}
+.busy:hover{
+
+        -fx-background-color:cdcbcb;
+        -fx-text-alignment: center;
+}
